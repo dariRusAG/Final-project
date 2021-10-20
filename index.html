@@ -3,53 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <link href="style.css" rel="stylesheet" type="text/css">
-    <title>Топовый сайт</title>
+    <title>Личная страница</title>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-<header>
-    <div class="logo">DR</div>
-    <nav>
-        <a href="#">Краткая информация обо мне</a>
-        <a href="#">Увлечения</a>
-    </nav>
 
-    <!--Дроп-меню-->
-    <span class="dropdown">
-        <button class="dropbtn">Дополнительно</button>
-        <div class="dropdown-content">
-            <a href="#">Портфолио</a>
-            <a href="#">Блог</a>
-            <a href="#">Узнать еще</a>
+<body>
+<!--Шапка сайта-->
+<header id="header" class="header">
+    <div class="container">
+        <div class="nav">
+            <div class="logo">DR</div>
+            <ul class="menu">
+                <li><a href="#">Краткая информация обо мне</a></li>
+                <li><a href="#">Увлечения</a></li>
+                <li><a href="#">Контакты</a></li>
+
+                <!--Дроп-меню-->
+                <span class="dropdown">
+                    <li><a href="#">Дополнительно</a></li>
+                    <div class="dropdown-content">
+                        <a href="#">Портфолио</a>
+                        <a href="messenger.html">Общение</a>
+                        <a href="#">Узнать еще</a>
+                    </div>
+                </span>
+            </ul>
         </div>
-    </span>
+        <div class="offer">
+            <p>Личная страница</p>
+            <h1>Агаповой Дарьи</h1>
+        </div>
+    </div>
 </header>
 
-<div class="intro">
-    <h1>Страница<br>Агаповой Дарьи</h1>
+<!--Основная область-->
+<section id="about" class="about">
+    <div class="container">
+        <h2><u>Обо мне</u></h2>
+        <div class="description">
+            <div class="desc-left">
+                <h3>Жизнь</h3>
+                <p>
+                    Родилась в Магадане 11 января 2001 года. Отлично училась в школе.
+                    За всю жизнь испробовала огромное количество разных увлечений.
+                    Начиная от музыки и танцев, заканчивая вышивкой и FireShow.
+                    Будучи любительницей поиграть в компьютерные игры, была мечта
+                    участвовать в создании подобного. Также хотелось уехать в более
+                    крупный город, чтобы лучше реализовать потенциал и испробовать
+                    свои силы. В частности, эти два пункта и привели меня к поступлению
+                    в ДВФУ. На данный момент являюсь студенткой третьего курса
+                    направления программной инженерии.
+                </p>
+            </div>
+            <div class="desc-right">
+                <h3>Увлечения и достижения</h3>
+                <p>
+                    Люблю в свободное время позалипать в ютубчик, на постоянной основе
+                    занимаюсь в фитнес зале, делаю домашку (удивительно, да). За
+                    школьный период накопилось много дипломов и сертификатов первых,
+                    вторых, третьих мест за участие в различных олимпиадах. Получила
+                    первое место в одном из ежегодных соревнований по игре "Beat Saber"
+                    в очках виртуальной реальности. Когда-то пробовала себя ранее в верстке
+                    сайтов - забросила из-за нехватки свободного времени. Также занималась
+                    изучением основ построения 3D-интерьеров. Имеется опыт работы с Adobe
+                    Photoshop.
+                </p>
+            </div>
+        </div>
+        <div class="gallery">
+            <div class="gallery-top">
+                <img src="img2.jpg" alt="Фото 1" width="auto" height="250">
+                <img src="img3.jpg" alt="Фото 3" width="auto" height="250">
+                <img src="img4.jpg" alt="Фото 4" width="auto" height="250">
+            </div>
+            <div class="gallery-bottom">
+                <img src="img5.jpg" alt="Фото 5" width="auto" height="250">
+                <img src="img6.jpg" alt="Фото 6" width="auto" height="250">
+            </div>
+        </div>
+    </div>
+</section>
 
-    <div class="info">
-    <h3><u>Краткая информация обо мне</u></h3>
-    <h5>Родилась в Магадане 11 января 2001 года. Отлично училась в школе. За всю жизнь испробовала огромное количество разных увлечений.
-        Начиная от музыки и танцев, заканчивая вышивкой и FireShow. Будучи любительницей поиграть в компьютерные игры, была мечта участвовать в создании
-        подобного. Также хотелось уехать в более крупный город, чтобы лучше реализовать потенциал и испробовать свои силы. В частности,
-        эти два пункта и привели меня к поступлению в ДВФУ. <br> На данный момент являюсь студенткой третьего курса направления программной инженерии.</h5>
-
-    <h3><u>Увлечения</u></h3>
-    <h5>Смотрю ютубчик, хожу в зал, делаю домашку.</h5>
-</div>
-</div>
-
-
-<div class="contact">
-    <h2>Контактная информация</h2>
-    <h4>Местоположение</h4>
-    <a>Россия, Владивосток</a>
-    <h4>Телефон</h4>
-    <a>+7 984-455-55-55</a>
-    <h4>Email</h4>
-    <a href="#">agapova.dr@students.dvfu.ru</a>
-    <h4>Web</h4>
-    <a href="#">https://vk.com/dari_rus</a>
-</div>
+<!--Область footer-->
+<footer id="footer" class="footer">
+    <div class="container">
+        <h3>Контакты</h3>
+        <div class="footer-text">
+            <ul class="left-info">
+                <li><p>Местоположение</p></li>
+                <li><a href="#">Россия, Владивосток</a></li>
+                <li><p>Телефон</p></li>
+                <li><a href="tel:+79844555555">+7 984-455-55-55</a></li>
+            </ul>
+            <ul class="right-info">
+                <li><p>Email</p></li>
+                <li><a href="#">agapova.dr@students.dvfu.ru</a></li>
+                <li><p>Web</p></li>
+                <li><a href="https://vk.com/dari_rus">https://vk.com/dari_rus</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
