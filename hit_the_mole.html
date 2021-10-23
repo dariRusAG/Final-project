@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Whack A Mole</title>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!--Шапка сайта-->
+<header id="header-msg" class="header-msg">
+    <div class="container">
+        <div class="nav">
+            <a href="index.html"><div class="logo">DR</div></a>
+            <ul class="menu">
+                <li><a href="#">Краткая информация обо мне</a></li>
+                <li><a href="#">Увлечения</a></li>
+                <li><a href="#">Контакты</a></li>
+
+                <!--Дроп-меню-->
+                <span class="dropdown">
+                    <li><a href="#">Дополнительно</a></li>
+                    <div class="dropdown-content">
+                        <a href="#">Портфолио</a>
+                        <a href="messenger.html">Общение</a>
+                        <a href="#">Узнать еще</a>
+                        <a href="hit_the_mole.html">Ударь крота</a>
+                        <a href="brothers_pilots.html">Братья пилоты</a>
+                    </div>
+                </span>
+            </ul>
+        </div>
+    </div>
+</header>
+<!--Основная область-->
+<div class="info">
+    <button class="start">НАЧАТЬ</button>
+    <section class="score">СЧЕТ: 0</section>
+</div>
+
+<!--Игровое поле-->
+<div class="field">
+    <div class="field-cell">
+        <button class="cell" id="1"></button>
+        <button class="cell" id="2"></button>
+        <button class="cell" id="3"></button>
+        <button class="cell" id="4"></button>
+    </div>
+    <div class="field-cell">
+        <button class="cell" id="5"></button>
+        <button class="cell" id="6"></button>
+        <button class="cell" id="7"></button>
+        <button class="cell" id="8"></button>
+    </div>
+    <div class="field-cell">
+        <button class="cell" id="9"></button>
+        <button class="cell" id="10"></button>
+        <button class="cell" id="11"></button>
+        <button class="cell" id="12"></button>
+    </div>
+    <div class="field-cell">
+        <button class="cell" id="13"></button>
+        <button class="cell" id="14"></button>
+        <button class="cell" id="15"></button>
+        <button class="cell" id="16"></button>
+    </div>
+</div>
+<section class="show">Для победы наберите 15 очков</section>
+<script type="text/javascript" src="script_WhackAMole.js"></script>
+</body>
+</html>

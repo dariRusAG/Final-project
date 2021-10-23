@@ -177,49 +177,128 @@ ul, li {
     margin-right: 60px;
 }
 
-/*Messenger*/
-.msg-container {
-    max-width: 500vh;
-    margin-top: 4%;
-    /*font-family: sans-serif;*/
-    letter-spacing: 0.5px;
+/* Messenger */
+.header-msg {
+    background: url("intro.jpg") no-repeat center top / cover;
+    padding-bottom: 25px;
 }
 
-img {
-    max-width: 100%;
+/* Оформление иконок для сообщений и пользователей*/
+.container-msg {
+    border: 2px solid #dedede;
+    background-color: seashell;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
 }
 
-.msg-header {
-    border: 1px solid #ccc;
+/* Потомок предыдущего (особые характеристики для второго пользователя)*/
+.darker {
+    border-color: #ccc;
+    background-color: lavenderblush;
+}
+
+.container-msg::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Внешний вид аватарок */
+.container-msg img {
+    float: left;
+    max-width: 60px;
     width: 100%;
-    height: 10%;
-    border-bottom: none;
-    display: inline-block;
-}
-
-.msg-header-img {
+    margin-right: 20px;
     border-radius: 50%;
-    width: 40px;
-    margin-left: 5%;
-    margin-top: 12px;
-    float: left;
 }
 
-.active {
-    width: 120px;
-    float: left;
-    margin-top: 10px;
-}
-
-.active h4 {
-    font-size: 20px;
-    margin-left: 10px;
-    color: #FFFF
-}
-
-.active h6 {
-    font-size: 10px;
-    margin-left: 10px;
-    line-height: 2px;
+input {
+    font-size: 16px;
+    vertical-align: middle;
+    background:#4C4C4C;
+    margin: 18px auto;
+    height: 25px;
+    width: 25%;
     color: #FFFF;
+}
+
+.user1_form-submit, .user2_form-submit, .user3_form-submit {
+    width: 15%;
+}
+
+.user1_form-input, .user2_form-input, .user3_form-input {
+    background: #FFFF;
+    color: black;
+}
+
+/*Игра "Ударь крота"*/
+
+.info {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    padding: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.start {
+    padding: 8px;
+    color: #FFFF;
+    background: #4C4C4C;
+    margin: auto 20px;
+    font-size: 20px;
+    letter-spacing: 0.1em; /* отступ между символами */
+}
+
+.dimension {
+    margin: 40px;
+}
+
+.score{
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    margin: auto 20px;
+}
+
+.field {
+    place-content: center;
+    width: 320px;
+    height: 310px;
+    border: 2px solid #4C4C4C;
+    background-color: seashell;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.field-cell {
+    margin: 10px;
+    display: flex;
+    place-content: center;
+}
+
+.cell{
+    background-color: mistyrose;
+    border-radius: 100px;
+    padding: 10px;
+    margin: 15px;
+    width: 35px;
+    height: 35px;
+}
+
+.show {
+    display: flex;
+    place-content: center;
+    margin: 20px;
+}
+
+.dropping, .initialize {
+    padding: 8px;
+    color: #FFFF;
+    background: #4C4C4C;
+    margin: auto 10px;
+    font-size: 20px;
+    letter-spacing: 0.1em; /* отступ между символами */
 }
