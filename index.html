@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" href="flower.png" type="image/png">
     <title>Личная страница</title>
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
@@ -15,18 +16,19 @@
         <div class="nav">
             <a href="index.html"><div class="logo">DR</div></a>
             <ul class="menu">
-                <li><a href="#">Краткая информация обо мне</a></li>
-                <li><a href="#">Увлечения</a></li>
-                <li><a href="#">Контакты</a></li>
+                <li><a href="#InformationAboutOfMe">Краткая информация обо мне</a></li>
+                <li><a href="#Hobbies">Увлечения</a></li>
+                <li><a href="#Contacts">Контакты</a></li>
 
                 <!--Дроп-меню-->
                 <span class="dropdown">
                     <li><a href="#">Дополнительно</a></li>
                     <div class="dropdown-content">
-                        <a href="#">Портфолио</a>
-                        <a href="messenger.html">Общение</a>
+                        <a href="messenger.html">Мессенджер</a>
                         <a href="hit_the_mole.html">Ударь крота</a>
                         <a href="brothers_pilots.html">Братья пилоты</a>
+                        <a href="timer.html">Обратный отсчет</a>
+                        <a href="gallery.html">Галлерея</a>
                     </div>
                 </span>
             </ul>
@@ -39,6 +41,7 @@
 </header>
 
 <!--Основная область-->
+<a name="InformationAboutOfMe"></a>
 <section id="about" class="about">
     <div class="container">
         <h2><u>Обо мне</u></h2>
@@ -57,6 +60,7 @@
                     направления программной инженерии.
                 </p>
             </div>
+            <a name="Hobbies"></a>
             <div class="desc-right">
                 <h3>Увлечения и достижения</h3>
                 <p>
@@ -87,6 +91,7 @@
 </section>
 
 <!--Область footer-->
+<a name="Contacts"></a>
 <footer id="footer" class="footer">
     <div class="container">
         <h3>Контакты</h3>

@@ -14,7 +14,7 @@ function UserThree()
 
 // Получаем все теги
 // куда пишется текст сообщения
-let inputUser1=document.querySelector('.user1_form-input');
+inputUser1=document.querySelector('.user1_form-input');
 inputUser2=document.querySelector('.user2_form-input');
 inputUser3=document.querySelector('.user3_form-input');
 // кнопки отправить
@@ -45,6 +45,8 @@ let objectForMessages=[ //Объект для сообщений
     // 2 пользователь
     []
 ];
+
+let count = 0;
 submitUser1.addEventListener('click',(event)=>{
     // запрет перезагрузки страницы во время отправки сообщений
     event.preventDefault();
@@ -154,5 +156,3 @@ document.addEventListener("DOMContentLoaded", function(event) {
 function documentClear() {
     localStorage.clear();
 }
-
-

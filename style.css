@@ -302,3 +302,20 @@ input {
     font-size: 20px;
     letter-spacing: 0.1em; /* отступ между символами */
 }
+
+.end {
+    text-align: center;
+    margin: 15px;
+}
+
+/*Галлерея*/
+.image_area {
+    margin: 50px 0;
+    justify-content: space-around;
+    display: flex;
+}
+
+img {
+    border: 4px solid #FFFF;
+}
+

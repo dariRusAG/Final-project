@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fd1ccb5-1f95-4de2-8cf7-06256c8bb251" name="Changes" comment="Add files via upload&#10;&#10;Signed-off-by: dariRusAG &lt;agapova.dr@students.dvfu.ru&gt;">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/brothers_pilots.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/hit_the_mole.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/script_BrothersPilots.js" afterDir="false" />
@@ -10,6 +11,9 @@
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/messenger.html" beforeDir="false" afterPath="$PROJECT_DIR$/messenger.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> origin/main
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,14 +56,21 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../WebStorm/Probe" />
+>>>>>>> origin/main
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/style.css" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+<<<<<<< HEAD
       <recent name="C:\Users\1111\Desktop\5 семестр\Сетевые и интернет технологии\My-Site" />
+=======
+>>>>>>> origin/main
       <recent name="C:\Users\1111\Desktop\5 семестр\Сетевые и интернет технологии\WebStorm" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -99,10 +110,14 @@
       <workItem from="1634970557629" duration="14366000" />
       <workItem from="1635043407683" duration="20029000" />
       <workItem from="1635064792109" duration="15452000" />
+<<<<<<< HEAD
       <workItem from="1635081661815" duration="1091000" />
       <workItem from="1635808012943" duration="3753000" />
       <workItem from="1635832293463" duration="18909000" />
       <workItem from="1635928555573" duration="6328000" />
+=======
+      <workItem from="1635081661815" duration="366000" />
+>>>>>>> origin/main
     </task>
     <task id="LOCAL-00001" summary="Add files via upload">
       <created>1634971124183</created>

@@ -75,7 +75,6 @@ function startGame()
 
 //завершение игры
 function stopGame() {
-    // start.innerText = "Переиграть";
 
     //удаляет обработчик события для продолжения игры
     start.removeEventListener('click', stopGame);
@@ -85,6 +84,7 @@ function stopGame() {
 
     //обходит все ячейки и перекрашивает в изначальный цвет
     cell.forEach(button => {
+        button.removeEventListener('click', cellCheck);
         button.style.background = "mistyrose";
     })
     clearInterval(gameLoop);
