@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <link href="style.css" rel="stylesheet" type="text/css">
     <link rel="shortcut icon" href="flower.png" type="image/png">
-    <title>Галлерея</title>
+    <title>Обратный отсчет</title>
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -13,9 +13,9 @@
 <header id="header-msg" class="header-msg">
     <div class="container">
         <div class="nav">
-            <a href="index.html"><div class="logo">DR</div></a>
+            <a href="../index.html"><div class="logo">DR</div></a>
             <ul class="menu">
-                <li><a href="index.html">Главная</a></li>
+                <li><a href="../index.html">Главная</a></li>
 
                 <!--Дроп-меню-->
                 <span class="dropdown">
@@ -32,8 +32,15 @@
         </div>
     </div>
 </header>
-<!--Основная область-->
-<div class="image_area"></div>
+<!--Основная часть-->
+<div class="info">
+    <h3 class="score">01:03:000</h3>
+    <button class="start">ЗАПУСТИТЬ</button>
+</div>
+<div class="gallery-top">
+    <img hidden src="https://bookflow.ru/wp-content/uploads/2020/03/timer.gif" width="250" height="250" id = "img">
+</div>
+<section id ="end" class="end" hidden>Отсчет окончен</section>
+<script src="script_Countdown.js"></script>
 </body>
-<script src="script_Gallery.js"></script>
 </html>
