@@ -4,13 +4,14 @@
     --bg: lightpink;
     --border: 0.1rem solid grey;
     --in-bg: thistle;
+    --text: white;
 }
 
 *{
     font-family: 'Roboto', sans-serif;
     margin:0; padding:0;
     box-sizing: border-box;
-    outline: none; border:none;
+    border: none;
     text-decoration: none;
     text-transform: capitalize;
     transition: 0.2s linear;
@@ -18,7 +19,7 @@
 
 html{
     font-size: 62.5%;
-    overflow-x: hidden;
+    overflow-x: scroll;
     scroll-padding-top: 9rem;
     scroll-behavior: smooth;
 }
@@ -28,7 +29,7 @@ html::-webkit-scrollbar{
     width: 0.8rem;
 }
 
-/*дорожка (индикатор выполнения) полосы прокрутки, где серая полоса находится поверх белой полосы*/
+/*дорожка (индикатор выполнения) полосы прокрутки (фон)*/
 html::-webkit-scrollbar-track{
     background: transparent;
 }
@@ -50,7 +51,7 @@ section{
 /*заголовки*/
 .heading{
     text-align: center;
-    color:#fff;
+    color: var(--text);
     text-transform: uppercase;
     padding-bottom: 3.5rem;
     font-size: 4rem;
@@ -67,7 +68,7 @@ section{
     display: inline-block;
     padding: 0.9rem 3rem;
     font-size: 1.7rem;
-    color:#fff;
+    color: var(--text);
     background: var(--main-color);
     cursor: pointer;
     text-transform: none;
@@ -98,17 +99,17 @@ section{
 .header .navbar a{
     margin: 0 1rem;
     font-size: 1.8rem;
-    color:#fff;
+    color: var(--text);
 }
 
 .header .navbar a:hover{
     color:var(--main-color);
-    border-bottom: .1rem solid var(--main-color);
-    padding-bottom: .5rem;
+    border-bottom: 0.1rem solid var(--main-color);
+    padding-bottom: 0.5rem;
 }
 
 .header .icons div{
-    color:#fff;
+    color: var(--text);
     cursor: pointer;
     font-size: 2.5rem;
     margin-left: 2rem;
@@ -121,7 +122,7 @@ section{
 .header .search-form{
     position: absolute;
     top:115%; right: 7%;
-    background: #fff;
+    background: var(--text);
     width: 50rem;
     height: 5rem;
     display: flex;
@@ -159,7 +160,7 @@ section{
     top:100%; right: -100%;
     height: calc(100vh - 9.5rem);
     width: 35rem;
-    background: #fff;
+    background: var(--text);;
     padding:0 1.5rem;
 }
 
@@ -223,15 +224,14 @@ section{
 .home .content h3{
     font-size: 6rem;
     text-transform: uppercase;
-    color:#fff;
+    color: var(--text);
 }
 
 .home .content p{
     font-size: 2rem;
-    font-weight: lighter;
     line-height: 1.8;
     padding:1rem 0;
-    color:#eee;
+    color: var(--text);
 }
 
 /*о нас*/
@@ -257,20 +257,20 @@ section{
 
 .about .row .content h3{
     font-size: 3rem;
-    color:#fff;
+    color: var(--text);
     text-transform: uppercase;
 }
 
 .about .row .content p{
     font-size: 1.6rem;
-    color: #fff;
+    color: var(--text);
     padding:1rem 0;
     line-height: 1.5;
 }
 
 .about .row .content ol{
     font-size: 1.6rem;
-    color: #fff;
+    color: var(--text);
     padding:1rem 2rem;
     line-height: 1.5;
 }
@@ -301,7 +301,7 @@ section{
 .contact .row form h3{
     text-transform: uppercase;
     font-size: 3.5rem;
-    color:#fff;
+    color: var(--text);
 }
 
 .contact .row form .inputBox{
@@ -314,7 +314,7 @@ section{
 }
 
 .contact .row form .inputBox span{
-    color:#fff;
+    color: var(--text);
     font-size: 2rem;
     padding-left: 2rem;
 }
@@ -323,7 +323,7 @@ section{
     width: 100%;
     padding:2rem;
     font-size: 1.7rem;
-    color:#fff;
+    color: var(--text);
     text-transform: none;
     background:none;
 }
@@ -342,7 +342,7 @@ section{
     width: 5rem;
     line-height: 5rem;
     font-size: 2rem;
-    color:#fff;
+    color: var(--text);
     border: 0.1rem solid white;
     margin:0.3rem;
     border-radius: 50%;
@@ -362,7 +362,7 @@ section{
 
 .footer .links a{
     padding:.7rem 2rem;
-    color:#fff;
+    color: var(--text);
     border: 0.1rem solid white;
     font-size: 2rem;
 }
@@ -373,7 +373,7 @@ section{
 
 .footer .credit{
     font-size: 2rem;
-    color:#fff;
+    color: var(--text);
     font-weight: lighter;
     padding:1.5rem;
 }

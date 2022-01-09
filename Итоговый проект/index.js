@@ -1,9 +1,3 @@
-// листание страницы
-window.onscroll = () =>{
-    searchForm.classList.remove('active');
-    cartItem.classList.remove('active');
-}
-
 // активирование кнопки поиска
 let searchForm = document.querySelector('.search-form');
 
@@ -20,12 +14,19 @@ document.querySelector('#cart-btn').onclick = () =>{
     searchForm.classList.remove('active');
 }
 
+// активирование кнопки "Купите выкройку уже сейчас"
 document.querySelector('#cart-btn-2').onclick = () =>{
     cartItem.classList.toggle('active');
     searchForm.classList.remove('active');
 }
 
-// нажатие кнопки оплатить
+// листание страницы - отклячение из вида корзины и поиска
+window.onscroll = () =>{
+    searchForm.classList.remove('active');
+    cartItem.classList.remove('active');
+}
+
+// нажатие кнопки (ссылки) оплатить
 let btnPaid = document.querySelector('.btn-paid');
 
 document.querySelector('#btn-paid').onclick = () =>{
