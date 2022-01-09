@@ -1,5 +1,5 @@
 {
-    "image_1": "https://assets.vogue.ru/photos/61c07bf626ea4107da019b9e/16:9/w_1920%2Cc_limit/carrie.png",
-    "image_2": "https://assets.vogue.ru/photos/61c3429a953ad1e9cbdc9d0e/16:9/w_1920%2Cc_limit/DA839BFF-6DC4-4641-A80F-F1C998DF053A.jpeg",
-    "image_3": "https://assets.vogue.ru/photos/5f635ac63c17353455aadff6/16:9/w_1920%2Cc_limit/GettyImages-470030658.jpg"
+  "image_1": "../images/blogs-1.png",
+  "image_2": "../images/blogs-2.jpeg",
+  "image_3": "../images/blogs-3.jpg"
 }
