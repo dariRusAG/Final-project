@@ -1,0 +1,14 @@
+{
+  "name": "parcel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+   "watch": "parcel index.html --open"
+  },
+  "keywords": [
+    "123"
+  ],
+  "author": "dasha",
+  "license": "ISC"
+}

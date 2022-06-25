@@ -1,0 +1,25 @@
+{
+  "name": "webform",
+  "version": "1.0.0",
+  "main": "../index.js",
+  "scripts": {
+    "serve": "parcel serve ../index.html",
+    "dev": "parcel ../index.html",
+    "build": "parcel ../index.html"
+  },
+  "author": "DASHA",
+  "license": "ISC",
+  "description": "webpack project",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "parcel": "^2.1.1",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
+  },
+  "keywords": [
+    "123"
+  ]
+}
